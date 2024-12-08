@@ -1,43 +1,42 @@
 # Docker Notes for DevOps Engineering
 
-## Table of Contents
+## **Table of Contents**
 
-1. **Introduction to Docker**  
-   1.1 [What is Docker?](#1.1)  
-   1.2 [Installation](#1.2)  
-   1.3 [Docker Container and Images](#1.3)  
-   1.4 [Docker Hub](#1.4)  
+### **1. Introduction to Docker**  
+- [1.1 What is Docker?](#what-is-docker)  
+- [1.2 Installation](#installation)  
+- [1.3 Docker Container and Images](#docker-container-and-images)  
+- [1.4 Docker Hub](#docker-hub)  
 
-2. **Docker Command Line Interface (CLI)**  
-   2.1 [Introduction to Docker CLI](#2.1)  
-   2.2 [Docker Image CLI](#2.2)  
-   2.3 [Docker Container CLI](#2.3)  
+### **2. Docker Command Line Interface (CLI)**  
+- [2.1 Introduction to Docker CLI](#introduction-to-docker-cli)  
+- [2.2 Docker Image CLI](#docker-image-cli)  
+- [2.3 Docker Container CLI](#docker-container-cli)  
 
-3. **Docker Custom Images**  
-   3.1 [Dockerfile](#3.1)  
-   3.2 [Containerize a Node.js Application](#3.2)  
-   3.3 [Automatic Port Mapping](#3.3)  
-   3.4 [Pushing to Docker Hub](#3.4)  
+### **3. Docker Custom Images**  
+- [3.1 Dockerfile](#dockerfile)  
+- [3.2 Containerize a Node.js Application](#containerize-a-nodejs-application)  
+- [3.3 Automatic Port Mapping](#automatic-port-mapping)  
+- [3.4 Pushing to Docker Hub](#pushing-to-docker-hub)  
 
-4. **Docker Networking**  
-   4.1 [Bridge Mode Networking](#4.1)  
-   4.2 [Host Mode Networking](#4.2)  
-   4.3 [Overlay Mode Networking](#4.3)  
-   4.4 [IPvlan and MacVlan Networking](#4.4)  
-   4.5 [None Mode Networking](#4.5)  
+### **4. Docker Networking**  
+- [4.1 Bridge Mode Networking](#bridge-mode-networking)  
+- [4.2 Host Mode Networking](#host-mode-networking)  
+- [4.3 Overlay Mode Networking](#overlay-mode-networking)  
+- [4.4 IPvlan and MacVlan Networking](#ipvlan-and-macvlan-networking)  
+- [4.5 None Mode Networking](#none-mode-networking)  
 
-5. **Docker Volumes**  
-   5.1 [Attaching Host Volumes](#5.1)  
-   5.2 [Custom Volumes](#5.2)  
+### **5. Docker Volumes**  
+- [5.1 Attaching Host Volumes](#attaching-host-volumes)  
+- [5.2 Custom Volumes](#custom-volumes)  
 
-6. **Docker Compose**  
-   6.1 [Introduction to Docker Compose](#6.1)  
-   6.2 [Defining Docker Compose Files](#6.2)  
+### **6. Docker Compose**  
+- [6.1 Introduction to Docker Compose](#introduction-to-docker-compose)  
+- [6.2 Defining Docker Compose Files](#defining-docker-compose-files)  
 
+---
 
 ## Docker Notes for DevOps Engineering
-
-These notes are structured to help you learn Docker step by step. Click on the **hyperlinked headings** to navigate directly to each topic.
 
 ---
 
