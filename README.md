@@ -51,7 +51,7 @@
 
 #### [1.2 Installation](#1.2)
 - **Steps to Install:**
-  - Windows: Use Docker Desktop
+  - [Windows](https://www.docker.com/products/docker-desktop/): Use Docker Desktop (CLI + GUI)
   - Linux: Use package managers like `apt` or `yum`
   - MacOS: Docker Desktop or brew install docker
 - **Check Installation:** Run `docker --version`.
