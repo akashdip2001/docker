@@ -87,12 +87,16 @@ exit
    ```bash
    docker exec -it <container_id> bash
    ```
+   
+![Screenshot (668)](https://github.com/user-attachments/assets/8f40b38e-386e-4fdb-9a4a-c392b3956cc1)
 
 3. **Start a stopped container:**
    ```bash
    docker start <container_id>
    docker exec -it <container_id> bash
    ```
+
+![Screenshot (669)](https://github.com/user-attachments/assets/b0215ba0-f59e-4528-8fb0-71727a9b88d2)
 
 4. **Start a new container with a terminal:**
    ```bash
