@@ -1,5 +1,7 @@
 # Docker in WLS
 
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
 ## 1) install the Docker Desktop for Windows.
 
 check it's install or not?
@@ -7,6 +9,7 @@ check it's install or not?
 ```bash
 docker --version
 ```
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
 ## 2) Open WSL Kali Terminal ==> Docker Desktop automatically detect Kali Terminal
 
@@ -15,6 +18,8 @@ docker --version
 ```bach
 docker run ubuntu
 ```
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ### ✈️ 2. check where are you now ?
 
 ### **How to Check Where You Are?**
@@ -68,6 +73,7 @@ exit
 2. Run `cat /etc/os-release` to confirm whether you're in **Ubuntu** (Docker container) or **Kali Linux** (WSL).  
 3. When running `docker run`, you interact with the container **through Docker Engine** from WSL.
 
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
 ### ✈️ 3. **Check if the Container is Running**
 
@@ -92,6 +98,7 @@ exit
    ```bash
    docker run -it ubuntu bash
    ```
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### ✈️ 3.1 Some Time : Not start again normally ==> Try ReStart or Deleate & create a new one
 
@@ -134,6 +141,8 @@ docker rm <container_id>
 - To exit the container's terminal: `exit`.
 - To detach without stopping the container: `Ctrl + P`, `Ctrl + Q`.
 - To stop the container: `docker stop <container_name_or_id>`.
+
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
 ### To re-enter an already running or stopped container, you can follow these steps:
 
