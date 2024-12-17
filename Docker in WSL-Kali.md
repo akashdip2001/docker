@@ -15,6 +15,8 @@ docker --version
 
 ### ✈️ 1. install img in Docker
 
+##### ➡️ re-use old img from local or download fron [Docker Hub](https://hub.docker.com/)
+
 ```bach
 docker run ubuntu
 ```
