@@ -18,6 +18,24 @@ docker --version
 ```bach
 docker run ubuntu
 ```
+
+#### Key Differences:
+
+| Command                  | Behavior                                   | When to Use |
+|--------------------------|--------------------------------------------|-------------|
+| `docker run ubuntu`       | Starts the container, but it will likely exit immediately unless the container has a long-running process. | To run background processes or non-interactive containers. |
+| `docker run -it ubuntu`   | Starts the container and opens an interactive terminal session with the `bash` shell. | To interact with the container (e.g., run commands inside a shell). |
+
+---
+
+#### Example:
+
+1. **`docker run ubuntu`:**
+   This will run the `ubuntu` container but will quickly exit because Ubuntu's default image doesn't keep a terminal open by default.
+   
+2. **`docker run -it ubuntu`:**
+   This will start a new Ubuntu container and give you an interactive terminal where you can run commands inside the container.
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### ✈️ 2. check where are you now ?
