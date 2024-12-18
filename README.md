@@ -51,7 +51,7 @@
 
 #### [1.2 Installation](#1.2)
 - **Steps to Install:**
-  - [Windows](https://www.docker.com/products/docker-desktop/): Use Docker Desktop (CLI + GUI)
+  - [Windows](https://www.docker.com/products/docker-desktop/) : Use Docker Desktop (CLI + GUI)
   - Linux: Use package managers like `apt` or `yum`
   - MacOS: Docker Desktop or brew install docker
 - **Check Installation:** Run `docker --version`.
@@ -81,6 +81,8 @@
   ```
 
 ![Screenshot (666)](https://github.com/user-attachments/assets/4e6482e7-38d7-42f4-b32f-7680d57042a5)
+
+## 🧫 [Run Docker in WSL](https://github.com/akashdip2001/docker/blob/main/Docker%20in%20WSL-Kali.md)
 
 #### [1.4 Docker Hub](#1.4)
 - A cloud-based repository to store and share Docker images.
