@@ -133,7 +133,7 @@ If you want to keep the container running in the background:
 
 ---
 
-### **Summary of Commands:**
+### 🧪 **Summary of Commands:**
 1. Start the container:
    ```bash
    docker run -it -p 8080:80 ubuntu bash
@@ -162,6 +162,8 @@ If you want to keep the container running in the background:
 To access your laptop's localhost (port 8080) from your mobile browser within the same local area network (LAN), you can follow these steps:
 
 ---
+
+<img align="right" alt="python_logo" width="300" src="https://github.com/user-attachments/assets/9472d238-3f17-4ea4-a4b8-486438c1b944"> 
 
 ## **Steps to Access Laptop's Localhost on Mobile**
 
