@@ -82,7 +82,7 @@
 
 ![Screenshot (666)](https://github.com/user-attachments/assets/4e6482e7-38d7-42f4-b32f-7680d57042a5)
 
-## 🧫 [Run Docker in WSL](https://github.com/akashdip2001/docker/blob/main/Docker%20in%20WSL-Kali.md)
+## 🧫 [Run Docker in WSL](./01%20Docker%20in%20WSL-Kali.md)
 
 #### [1.4 Docker Hub](#1.4)
 - A cloud-based repository to store and share Docker images.
@@ -111,16 +111,16 @@
   - `docker stop <container>` – Stop a running container
   - `docker logs <container>` – View logs from a container
 
-1. [x] [Running Ubuntu img in Containers](./Docker%20in%20WSL-Kali.md)
-2. [x] [Multiple Containers](./Docker%20in%20WSL-Kali.md)
-3. [ ] [Port Mapping](./Port%20Mapping.md)
+1. [x] [Running Ubuntu img in Containers](./01%20Docker%20in%20WSL-Kali.md)
+2. [x] [Multiple Containers](./02%20Docker%20Custom%20Images.md)
+3. [ ] [Port Mapping](./03%20Port%20Mapping.md)
 
 ---
 
 ### **3. Docker Custom Images**
 
 #### [3.1 Dockerfile](#3.1)
-- **Definition:** A text file containing instructions to build a Docker image.
+- **Definition:** A text file containing instructions to [build a Docker image](./02%20Docker%20Custom%20Images.md).
 - **Sample Dockerfile:**
   ```dockerfile
   FROM node:14
