@@ -24,6 +24,16 @@ Explanation:
 - `ubuntu`: Uses the Ubuntu image.
 - `bash`: Opens a Bash shell inside the container.
 
+![Screenshot (671)](https://github.com/user-attachments/assets/02462f6a-a1d8-4921-ab77-3ddd23ab678e)
+
+<details>	
+     <summary><b>image Guide</b></summary><br>
+  🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+   
+   ![Screenshot (672)](https://github.com/user-attachments/assets/ead977a9-ed32-4b53-944e-93c65d880ade)
+  🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+</details>
+
 ---
 
 ### **Step 2: Install Necessary Tools in the Container**
@@ -38,12 +48,29 @@ Run the following commands in the container:
    apt update
    apt install -y git python3
    ```
+   <details>	
+     <summary><b>image Guide</b></summary><br>
+   🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+      
+   ![Screenshot (673)](https://github.com/user-attachments/assets/449f4893-310a-40ae-b718-c9d6cb0ed7e8)
+   ![Screenshot (674)](https://github.com/user-attachments/assets/ce401b80-bd72-4ec8-b16b-c8a8b54d9743)
+   ![Screenshot (675)](https://github.com/user-attachments/assets/a611d16a-3018-4d97-b137-6d55e23d7553)
+   ![Screenshot (676)](https://github.com/user-attachments/assets/d8ca25ca-dc96-4896-8f2b-e8afacfeec98)
+   🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+    </details>
 
 2. Verify installations:
    ```bash
    git --version
    python3 --version
    ```
+<details>	
+<summary><b>image Guide</b></summary><br>
+  🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+
+  ![Screenshot (677)](https://github.com/user-attachments/assets/956aad30-c597-4ddf-82ca-f89d317e3246)
+🚥🚥🚥🚥🚥🚥🚥🚥🚥🚥
+</details>
 
 ---
 
@@ -82,6 +109,15 @@ This starts a web server on **port 80** inside the container.
    ```
 
 Your website should now be visible in the browser.
+
+<p align="center">
+<img width="40%" src="https://github.com/user-attachments/assets/078282da-8b82-4e16-bb8f-62a11fa4a45c">
+<img width="40%" src="https://github.com/user-attachments/assets/47bafe78-d502-4135-a0aa-bd3ca969b71d">
+</p>
+<p align="center">
+<img width="40%" src="https://github.com/user-attachments/assets/600e93e8-3347-48da-b50b-f3f88eb12115">
+<img width="40%" src="https://github.com/user-attachments/assets/c00e4150-7aff-4f4a-bbdd-b571d4d17076">
+</p>
 
 ---
 
