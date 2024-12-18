@@ -245,3 +245,12 @@ If you're using Docker, the container port (`80`) must already be mapped to your
 
 3. **Recheck Firewall**:
    Ensure the firewall rule for port 8080 is applied.
+
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
+## Test using Postman 🚀
+
+![Screenshot (684)](https://github.com/user-attachments/assets/efd2146d-487e-4dcd-b89f-db1c8b03a32b)
+![Screenshot (685)](https://github.com/user-attachments/assets/5022f9d9-4e0a-4c0e-a1aa-77c516ea7a80)
+![Screenshot (686)](https://github.com/user-attachments/assets/dfb26c3d-a6c5-4e5b-a31a-1b03c7cf355a)
+
