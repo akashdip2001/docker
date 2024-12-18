@@ -189,3 +189,10 @@ docker rm <container_id>
    ```bash
    docker exec -it <container_id_or_name> bash
    ```
+
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
+## The images install from Docker-Hub
+
+![Screenshot (670)](https://github.com/user-attachments/assets/49ffc444-422b-4029-81bd-50ebb8f51c83)
+
