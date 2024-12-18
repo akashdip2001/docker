@@ -120,3 +120,90 @@ If you want to keep the container running in the background:
    ```
 
 5. Access the site in your browser at `http://localhost:8080`.
+
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
+To access your laptop's localhost (port 8080) from your mobile browser within the same local area network (LAN), you can follow these steps:
+
+---
+
+## **Steps to Access Laptop's Localhost on Mobile**
+
+### **Step 1: Find Your Laptop's IP Address**
+You need the local IP address of your laptop.
+
+1. Open **Command Prompt** (Windows) or Terminal (if in WSL).
+2. Run the following command to find your IP address:
+   ```bash
+   ipconfig
+   ```
+3. Look for the **IPv4 Address** under the active network adapter (e.g., Wi-Fi). It will look something like:
+   ```
+   IPv4 Address: 192.168.1.10
+   ```
+
+---
+
+### **Step 2: Access the Website from Mobile**
+On your mobile device:
+1. Open the browser.
+2. Enter the following URL in the address bar:
+   ```
+   http://<laptop-ip>:8080
+   ```
+   Replace `<laptop-ip>` with the IPv4 address from Step 1. For example:
+   ```
+   http://192.168.1.10:8080
+   ```
+
+---
+
+### **Step 3: Allow Firewall Access (If Necessary)**
+If you can't access the website from your mobile, your Windows firewall might be blocking the connection. To allow access:
+
+1. Open **Windows Firewall** settings:
+   - Press `Win + R`, type `firewall.cpl`, and press Enter.
+
+2. Click on **Advanced Settings** (on the left panel).
+
+3. Select **Inbound Rules**, and then click on **New Rule** (on the right panel).
+
+4. Configure the new rule:
+   - Rule Type: Select **Port**.
+   - Protocol and Ports: Select **TCP** and specify **8080**.
+   - Action: Select **Allow the connection**.
+   - Profile: Select **Private** (so it only applies to trusted networks like your home Wi-Fi).
+   - Name: Give the rule a name like `Allow-8080`.
+
+5. Save and apply the rule.
+
+---
+
+### **Step 4: Test the Connection**
+Retry accessing the URL on your mobile:
+```
+http://<laptop-ip>:8080
+```
+
+You should now be able to view the website hosted on your laptop from your mobile device.
+
+---
+
+### **Optional: Ensure Port Forwarding is Correct**
+If you're using Docker, the container port (`80`) must already be mapped to your laptop's port (`8080`). Since you've done this with `docker run -p 8080:80`, you're good.
+
+---
+
+### **Troubleshooting Tips**:
+1. **Ping Test**: From your mobile, verify connectivity to the laptop:
+   - Use a ping tool or app to check if `192.168.1.10` (your laptop IP) responds.
+
+2. **Check Docker Container**:
+   Ensure the container is running:
+   ```bash
+   docker ps
+   ```
+   Confirm it maps port `8080` to port `80` inside the container.
+
+3. **Recheck Firewall**:
+   Ensure the firewall rule for port 8080 is applied.
