@@ -1,4 +1,6 @@
-# Using AWS as your cloud platform to run and expose your Docker container 
+<img align="right" alt="cloud platform" width="300" src="https://github.com/user-attachments/assets/b3ba674a-1ac3-4f01-902c-bb1b1fc02746"> 
+
+Using AWS as your cloud platform to run and expose your Docker container 
 
 ## Deploying your Docker container on AWS:
 
@@ -115,3 +117,8 @@ If you restart the EC2 instance, Docker might not start automatically. To ensure
 - **Enable HTTPS**: Install NGINX or Apache with Let's Encrypt for secure HTTPS access.
 
 ---
+
+<img align="left" alt="DigitalOcean" width="300" src="https://github.com/user-attachments/assets/62c310b6-5be2-488a-8a08-d0e6719fb2d8"> 
+
+---
+
