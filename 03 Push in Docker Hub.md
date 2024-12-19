@@ -1,6 +1,8 @@
 1. [x] [Push in Docker Hub](https://hub.docker.com/r/akashdip2001x/todo-app-from-github)
 2. [x] Access website via Docker in AWS
 
+---
+
 ## To push a Docker container to your Docker Hub repository
 <img align="right" alt="python_logo" width="300" src="https://github.com/user-attachments/assets/f30947aa-0632-470c-bf98-3a7908b69348"> 
 
