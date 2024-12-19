@@ -81,7 +81,7 @@ docker push akashdip2001x/todo-app-from-github:latest
 
 <img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
-<img align="right" alt="cloud platform" width="300" src="https://github.com/user-attachments/assets/b3ba674a-1ac3-4f01-902c-bb1b1fc02746"> 
+[<img align="right" alt="cloud platform" width="300" src="https://github.com/user-attachments/assets/b3ba674a-1ac3-4f01-902c-bb1b1fc02746">](./05%20Host%20AWS.md)
 
 Access the website via Docker when the container is downloaded to a cloud platform or any other machine:
 
