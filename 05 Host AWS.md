@@ -118,7 +118,7 @@ If you restart the EC2 instance, Docker might not start automatically. To ensure
 
 ---
 
-<img align="left" alt="DigitalOcean" width="300" src="https://github.com/user-attachments/assets/62c310b6-5be2-488a-8a08-d0e6719fb2d8"> 
+[<img align="left" alt="DigitalOcean" width="300" src="https://github.com/user-attachments/assets/62c310b6-5be2-488a-8a08-d0e6719fb2d8">](./03%20Push%20in%20Docker%20Hub.md)
 
 ---
 
