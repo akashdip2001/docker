@@ -1,4 +1,4 @@
-## Run Website in Docker-Ubuntu Img --> & Port Mapping (8080)
+## ✅ Run Website in Docker-Ubuntu Img --> & Port Mapping (8080)
 
 Clone the repository inside the **Docker Ubuntu container**, set up a simple web server inside the container (like Python's `http.server` or Nginx), expose the container's port to your laptop, and access the site in your browser. Here's how:
 
@@ -159,6 +159,8 @@ If you want to keep the container running in the background:
 
 <img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
 
+## ❌ access from your mobile browser
+
 To access your laptop's localhost (port 8080) from your mobile browser within the same local area network (LAN), you can follow these steps:
 
 ---
@@ -253,4 +255,65 @@ If you're using Docker, the container port (`80`) must already be mapped to your
 ![Screenshot (684)](https://github.com/user-attachments/assets/efd2146d-487e-4dcd-b89f-db1c8b03a32b)
 ![Screenshot (685)](https://github.com/user-attachments/assets/5022f9d9-4e0a-4c0e-a1aa-77c516ea7a80)
 ![Screenshot (686)](https://github.com/user-attachments/assets/dfb26c3d-a6c5-4e5b-a31a-1b03c7cf355a)
+
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+<img src="https://github.com/akashdip2001/college-final-year-project/raw/main/img/colour_line.png">
+
+![Screenshot (687)](https://github.com/user-attachments/assets/24b914fa-4a80-480a-bdc3-ed4a3b4fe69a)
+
+## ✅ **Steps to Start the Existing Container**
+
+1. **Start the Existing Container**:
+   Since `cool_albattani` already exists, use `docker start` to start it:
+   ```bash
+   docker start -ai cool_albattani
+   ```
+
+   - `-a`: Attach the container’s stdout and stderr to your terminal.
+   - `-i`: Keeps the container interactive.
+
+2. **Verify the Container is Running**:
+   Check if the container is running with:
+   ```bash
+   docker ps
+   ```
+
+3. **Re-run the Web Server Inside the Container**:
+   If the container does not automatically start the web server, you need to do it manually. Attach to the container and start the server:
+
+   ```bash
+   docker exec -it cool_albattani bash
+   ```
+
+   Inside the container, navigate to your project directory and restart the Python web server:
+   ```bash
+   cd /path/to/your/project
+   python3 -m http.server 80
+   ```
+
+   Replace `/path/to/your/project` with the actual directory inside the container.
+
+4. **Access the Website on the Same Port**:
+   Since port mappings (`-p 8080:80`) were already set during the initial `docker run`, you can access the website at:
+   ```
+   http://localhost:8080
+   ```
+
+---
+
+## **If the Container Was Not Started with Port Mappings**
+If the container was not started with port mappings, you need to create a new container with `docker run`:
+
+1. **Remove the Existing Container** (Optional):
+   ```bash
+   docker rm cool_albattani
+   ```
+
+2. **Create a New Container with Port Mapping**:
+   ```bash
+   docker run -it -p 8080:80 ubuntu bash
+   ```
+
+3. **Set Up the Web Server**: ⬆️
+   Follow the previous instructions to install Python, clone your repository, and start the web server.
 
