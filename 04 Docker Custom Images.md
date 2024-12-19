@@ -136,7 +136,7 @@ Your website should now be running and visible in the browser.
 
 <img align="right" alt="python_logo" width="300" src="https://github.com/user-attachments/assets/b3ba674a-1ac3-4f01-902c-bb1b1fc02746"> 
 
-You're absolutely correct! Here’s the process to access your website via Docker when the container is downloaded to a cloud platform or any other machine:
+Access the website via Docker when the container is downloaded to a cloud platform or any other machine:
 
 ---
 
