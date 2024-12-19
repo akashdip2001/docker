@@ -196,7 +196,7 @@ Replace `<server-public-ip>` with the actual IP address of your cloud server.
 
 ---
 
-### **5. Alternative: Run on Local Machine and Use Tunneling (Port Forwarding)**
+### **5. ⚠️ Alternative: Run on Local Machine and Use Tunneling (Port Forwarding)**
 If you're running the container on your laptop and want external access:
 1. Use a tunneling service like **ngrok**:
    ```bash
