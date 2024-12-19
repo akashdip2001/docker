@@ -1,6 +1,11 @@
 ## To push a Docker container to your Docker Hub repository
+<img align="right" alt="python_logo" width="300" src="https://github.com/user-attachments/assets/f30947aa-0632-470c-bf98-3a7908b69348"> 
 
+<details>	
+     <summary><b>img of website</b></summary><br>
+   
 ![Screenshot (684)](https://github.com/user-attachments/assets/ae7592de-a0a5-4668-aa39-5fec37cd15b6)
+</details>
 
 ---
 
