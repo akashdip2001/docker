@@ -4,7 +4,17 @@ Using AWS as your cloud platform to run and expose your Docker container
 
 ## Deploying your Docker container on AWS:
 
+</br>
+</br>
+</br>
+
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/4ecb0c0e-4bf5-465f-bf63-bfbcffabe44a" width="45%">
+   <img src="https://github.com/user-attachments/assets/fff6dc76-5791-4ec1-9c30-792817643003" width="45%">
+</p>
+
 ---
+
 
 ### **Step 1: Launch an EC2 Instance**
 1. **Login to AWS Management Console**:
